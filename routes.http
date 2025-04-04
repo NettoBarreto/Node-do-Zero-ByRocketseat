@@ -1,0 +1,35 @@
+POST http://localhost:3333/videos
+Content-type: application/json
+
+{
+  "title": "meu video sapeka! ",
+  "description": "This is a description of my first video",
+  "duration": 120,
+  "url": "https://example.com/my-first-video"
+}
+
+###
+
+GET http://localhost:3333/videos
+
+
+###
+
+GET http://localhost:3333/videos?search=que
+
+
+###
+
+PUT http://localhost:3333/videos/3e038889-2c07-47e6-904f-15ffb4f86c3c
+Content-type: application/json
+
+{
+  "title": "ai que deliciaaa",
+  "description": "This is a description of my first video",
+  "duration": 120,
+  "url": "https://example.com/my-first-video"
+}
+
+###
+
+DELETE http://localhost:3333/videos/3e038889-2c07-47e6-904f-15ffb4f86c3c
