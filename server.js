@@ -63,7 +63,9 @@ server.get('/', () => {
 })
 
 server.listen({ 
-    host: '0.0.0.0',
-    port: process.env.PORT ?? 3333,
-    })
+    port,
+  host: '0.0.0.0'
+}, () => {
+  console.log(`🚀 Server is running on http://localhost:${port}`)
+})
 
