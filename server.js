@@ -59,7 +59,7 @@ server.delete('/videos/:id', (request, reply) => {
 })
 
 server.get('/', () => {
-    return 'Hello world'
+    return 'Hello world jaguarao'
 })
 
 server.listen({ 
