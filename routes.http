@@ -20,7 +20,7 @@ GET http://localhost:3333/videos?search=que
 
 ###
 
-PUT http://localhost:3333/videos/3e038889-2c07-47e6-904f-15ffb4f86c3c
+PUT http://localhost:3333/videos/ac526540-92e6-4432-a034-776ebbb5b0db
 Content-type: application/json
 
 {
@@ -32,4 +32,4 @@ Content-type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/3e038889-2c07-47e6-904f-15ffb4f86c3c
+DELETE http://localhost:3333/videos/440ea417-1d69-4ed2-af9a-be6be776f881
